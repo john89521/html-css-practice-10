@@ -1,0 +1,84 @@
+﻿/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+*/
+
+
+*,
+*::before,
+*::after {
+    box-sizing:content-box;
+}
+  
+
+body {
+    background: #F7FFF7;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+header {
+    background: #2F3061;
+    color: #F7FFF7;
+    margin: 5px auto;
+    padding: 0;
+    text-align: center;
+}
+
+footer {
+    background: #2F3061;
+    color: #F7FFF7;
+    margin: 5px auto;
+    padding: 5px 0 15px 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: Courier New, Courier, monospace;
+    font-size: 50px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+pre {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+.content-wrap {
+    background: #F7FFF7;
+    margin: 20px auto;
+    padding: 1px;
+    max-width: 500px;
+    width: 85%;
+}
+
+a { /*with no p tag in front of them, these <a> tags line up horizontally */
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: bolder;
+    background: #00ff21;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+a:visited {
+    outline: 1px solid block;
+}
+
+.img-item img {
+    float: left;
+    margin-right: 20px;
+    padding-top: 20px;
+}
